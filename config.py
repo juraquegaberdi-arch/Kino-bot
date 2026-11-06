@@ -5,10 +5,10 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    BOT_TOKEN: str
+    BOT_TOKEN: str = '8955497555:AAFX6IqsriuDmB8zkBoI3QnEUVNlUmczbHM'
     DATABASE_URL: str
     DEBUG: bool = False
-    ADMINS: Any = []
+    ADMINS: Any = [7327126896]
     SUBSCRIPTION_CHANNELS: Any = []
 
     model_config = SettingsConfigDict(
